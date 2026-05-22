@@ -1,0 +1,13 @@
+{
+  "name": "PixarPulse - Realtime AI Avatar",
+  "description": "Upload a photo to create your own Pixar-style animated AI companion. Chat in realtime with low-latency voice and expressive lip-sync animations.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "realtime_voice",
+    "image_analysis",
+    "animation",
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

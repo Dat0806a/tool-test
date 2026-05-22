@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Outfit:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #FF6B6B;
+}
+
+@layer base {
+  body {
+    @apply antialiased selection:bg-brand/20;
+  }
+}
+
+.pixar-rim-light {
+  box-shadow: inset 2px 2px 5px rgba(255,255,255,0.4), inset -2px -2px 5px rgba(0,0,0,0.1);
+}
+
+.pixar-skin {
+  background-image: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.2) 0%, transparent 60%);
+}
